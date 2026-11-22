@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/csv-reader-speed-01-run-20261121/Kiroya59/makefun-csv-reader-speed-01-run-20261121/rank.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
 [![reward](https://make.fun/badge/csv-reader-speed-01-run-20261121/Kiroya59/makefun-csv-reader-speed-01-run-20261121/reward.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
 
-A fast drop-in replacement for csv-reader 1.0.0 that reads broken CSV files with byte-identical answers. It parses with bulk indexOf/slice operations instead of one character at a time and emits the answer JSON directly while parsing, so there is no second serialisation pass — about 2x faster than the house baseline on the practice set.
+A faster drop-in for csv-reader 1.0.0: reads broken CSV files exactly as the reference does, about 2.9x faster than the house baseline on CPU time.
 
 ## Run it
 
